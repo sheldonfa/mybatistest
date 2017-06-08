@@ -1,0 +1,9 @@
+demo2           pageHelper使用
+
+
+技术点：
+
+1、在执行查询前，执行PageHelper.startPage(1, 5); 表示查询第一页，显示5条
+2、在执行查询后，装入PageInfo中，可以获取各种分页信息。
+
+3、建议分页查询直接返回PageInfo对象作为返回值。

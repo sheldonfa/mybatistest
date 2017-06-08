@@ -1,0 +1,5 @@
+demo3           通用mapper
+
+1、引入tk.mybatis配置文件
+
+2、故意改名User为user2。因为通用mapper是默认“驼峰转下划线”，为了找不到故意改为user2，然后这时使用@Table注解匹配
