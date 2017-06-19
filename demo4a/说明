@@ -1,0 +1,8 @@
+demo4a                  返回Map,包含多个kv实现方案
+
+
+技术点：
+
+1、自定义resultHandler
+
+2、不能使用mapper代理的方式了

@@ -28,7 +28,7 @@ public class Client {
     @Test
     public void testPageHelper() {
         //分页处理，显示第一页的10条数据
-        Page<User> page = PageHelper.startPage(1, 10);
+        Page<User> page = PageHelper.startPage(2, 3);
         List<User> all = userMapper.findAll();
         // 取分页信息
         PageInfo<User> pageInfo = new PageInfo<User>(all);

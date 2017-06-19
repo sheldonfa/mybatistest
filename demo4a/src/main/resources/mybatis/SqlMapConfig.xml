@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!-- 定义别名 -->
+    <typeAliases>
+        <!-- 单个定义别名 -->
+        <!--<typeAlias type="User" alias="user"/>-->
+        <!-- 批量定义别名（推荐） -->
+        <!-- [name]：指定批量定义别名的类包，别名为类名（首字母大小写都可） -->
+        <package name="com.pojo"/>
+    </typeAliases>
+
+</configuration>

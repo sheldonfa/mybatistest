@@ -1,0 +1,8 @@
+demo1           一个可以跑通的mybatis
+
+技术点：
+
+1、与spring整合的sqlSessionFactory拿走了mybatis的大部分配置
+    但是注意，configLocation这个属性配置了原来的mybatis文件，可以继续引入原来的mybatis配置文件并且设置别名
+
+2、MapperScannerConfigurer配置扫描mapper的地址+引入sqlSessionFactory
