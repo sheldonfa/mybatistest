@@ -20,4 +20,16 @@
     <select id="findMap" resultMap="kvMap">
         SELECT * FROM USER
     </select>
+
+    <select id="findMap2" resultType="user" >
+        SELECT * FROM USER
+    </select>
+
+    <select id="findMap3" resultType="user" >
+        SELECT * FROM USER
+    </select>
+
+    <select id="findMap4" resultType="user" >
+        SELECT * FROM USER
+    </select>
 </mapper>
